@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars and set your IAM Identity Center user ID.
+# Find it in the IAM Identity Center console (Users) or via:
+#   aws identitystore list-users --identity-store-id <store-id>
+viewer_user_id = "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
